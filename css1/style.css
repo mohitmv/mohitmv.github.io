@@ -1,0 +1,336 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+	color: #444;
+}
+
+p {
+	line-height: 2rem;
+}
+
+.button-collapse {
+	color: #26a69a;
+}
+
+.parallax-container {
+	min-height: 380px;
+	line-height: 0;
+	height: auto;
+	min-height: 85vh;
+	background: rgba(0,0,0, .7);
+	
+}
+
+/*  .parallax-container .section {
+		width: 100%;
+	}
+
+@media only screen and (max-width : 992px) {
+	.parallax-container .section {
+		position: absolute;
+		top: 40%;
+	}
+	#index-banner .section {
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	#index-banner .section {
+		top: 0;
+	}
+}
+*/
+.icon-block {
+	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+footer.page-footer {
+	margin: 0;
+}
+
+
+
+
+
+a.navbar_tab, a.navbar_tab_small {
+	color: #727272 !important;
+	transition: all 0.3s ease-out;
+	font-size: 13px !important;
+	font-weight: 500 !important;
+	font-family: 'Roboto', sans-serif;
+}
+
+a.navbar_tab {
+	text-transform: uppercase;
+}
+
+a.navbar_tab_small {
+	text-transform: none;
+	font-size: 13px !important;
+}
+
+li.navbar_tab_small {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+
+
+
+
+.main-title {
+		font-size: 72px;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-family: 'Roboto', sans-serif;
+}
+
+
+.home-subtitle {
+	color:white;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+		.main-title {
+				font-size: 54px;
+		}
+
+		.home-subtitle {
+				font-size: 16px;
+		}
+}
+
+@media only screen and (max-width: 767px) {
+
+		.main-title {
+				font-size: 42px;
+		}
+
+		.home-subtitle {
+				font-size: 14px;
+		}
+
+}
+
+
+@media only screen and (max-width: 479px) {
+
+		.main-title {
+				font-size: 36px;
+		}
+
+		.home-subtitle {
+				font-size: 13px;
+		}
+}
+
+
+@media only screen and (max-width: 359px) {
+    .main-title {
+        font-size: 32px;
+    }
+    .home-subtitle {
+        font-size: 12px;
+    }
+}
+
+
+
+.menucontainer {
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 90%;
+}
+
+@media only screen and (min-width: 601px) {
+	.menucontainer {
+		width: 85%;
+	}
+}
+
+@media only screen and (min-width: 993px) {
+	.menucontainer {
+		width: 85%;
+	}
+}
+
+.menucontainer .row {
+	margin-left: -0.75rem;
+	margin-right: -0.75rem;
+}
+
+
+.about-subtitle {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	color: #00bcd4;
+}
+
+
+.normaltext {
+	color: #727272;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+
+
+.title {
+	color: white;
+	font-size: 38px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+	line-height: 1.1;
+}
+
+
+
+.modal1 {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #fafafa;
+  padding: 0;
+  max-height: 95%;
+  width: 59%;
+  margin: auto;
+  overflow-y: auto;
+  border-radius: 2px;
+  will-change: top, opacity;
+  top:2%;
+}
+
+@media only screen and (max-width: 992px) {
+  .modal1 {
+    width: 80%;
+  }
+}
+
+.modal1 .modal1-content {
+  padding: 24px;
+}
+
+.modal1 .modal1-close {
+  cursor: pointer;
+}
+
+
+
+.profile-inner {
+	background: none repeat scroll 0 0 rgba(60, 70, 80, 0.7);
+	height: 100%;
+	left: 0;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+
+
+.pp-container {
+	display: block;
+	margin: 5px 0;
+	width: 60px;
+}
+
+.pp-container img {
+	border-radius: 50%;
+	width: 100%;
+	display: block;
+}
+
+.mobile-profile{
+    display: block;
+    min-height: 160px;
+    position: relative;
+}
+
+.mobile-profile h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 8px auto 5px;
+    text-align: left;
+}
+
+.mobile-profile h5 {
+    color: #fff;
+    font-size: 13px;
+    text-align: left;
+}
+
+
+#preloader {
+  background: none repeat scroll 0 0 #fff;
+  display: block;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.loader {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
+
+}
+
+.circle-loader {
+  -webkit-animation: rotate 2s linear infinite;
+          animation: rotate 2s linear infinite;
+  height: 50px;
+  left: 50%;
+  position: absolute;
+  top: 20%;
+  width: 50px;
+}
+
+.circle-loader .path {
+  stroke-dasharray: 1,200;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+          animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  stroke-linecap: round;
+  stroke: #3f88f8;
+}
+
+
+.circle-loader .path {
+    stroke: #00bcd4;
+}
+
+
+.path {
+  stroke-dasharray: 1,200;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+          animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  stroke-linecap: round;
+  stroke: #000;
+}
+
